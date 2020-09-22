@@ -60,7 +60,7 @@ div.hero h1 {
 }
 
 div.hero h2 {
-    color: #4d5791;
+    color: #2E3456; 
 }
 
 .container {
@@ -81,6 +81,25 @@ div.hero h2 {
 
 .center {
     text-align: center;
+}
+
+section h2 {
+    color: black;
+    font-size: 2em;
+}
+
+section p {
+    color: black;
+    font-size: 1.5em;
+}
+
+.skip {
+    position: absolute;
+    left:-10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 .container section.text-box {
