@@ -1,24 +1,27 @@
 {
-  "name": "personal-budget",
+  "name": "personal-budget-mongodb",
   "version": "1.0.0",
   "description": "The path to NGInx main folder: /usr/share/nginx/html",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.10"
+  },
+  "devDependencies": {},
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jacob-Hughey/personal-budget.git"
+    "url": "git+https://github.com/Jacob-Hughey/personal-budget-mongodb.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jacob-Hughey/personal-budget/issues"
+    "url": "https://github.com/Jacob-Hughey/personal-budget-mongodb/issues"
   },
-  "homepage": "https://github.com/Jacob-Hughey/personal-budget#readme",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/Jacob-Hughey/personal-budget-mongodb#readme"
 }
